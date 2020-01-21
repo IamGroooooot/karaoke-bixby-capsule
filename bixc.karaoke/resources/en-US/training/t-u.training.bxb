@@ -1,5 +1,5 @@
 train (t-unvqkcxh1lannn4jnviw6xrp5) {
-  utterance ("[g:FindMusicCode] from (TJ)[v:KaraokeCompany:TJ] find (rain)[v:SongTitle] ")
-  plan (Y2BhEEzKrEjWy04sSszPTtULzs9LZ5BCEXLLzEvxLS3OTHbOT0llkEaR84bQzvm5BYl5lQxiGGaFZJbkpDIwMzAyMAFJBiANghAAFwUA)
-  last-modified (1579585494039)
+  utterance ("[g:FindMusicCode] from (TJ)[v:KaraokeCompany:TJ] find (rain)[v:Keyword] ")
+  plan (Y2BhEEzKrEjWy04sSszPTtULzs9LZ5BCEXLLzEvxLS3OTHbOT0llkEaR84bQzvm5BYl5lQwiqJKpleX5RSkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1579591310849)
 }

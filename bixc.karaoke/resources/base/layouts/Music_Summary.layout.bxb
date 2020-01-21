@@ -1,16 +1,23 @@
-layout {
-  match: Song (this)
-  mode (Summary)
+layout-macro-def (music-summary) {
+  params{
+    param(info){
+      type(Song)
+      min (Optional) max (Many)
+    }
+  }
 
   content {
-    section {
-      content {
-        paragraph {
-          value ("[#{value(this.songTitle)}]\n")
-          style (Title_M)
-        }
-      
+    cell-card{
+      slot1{
+
       }
-    }
+      slot2{
+        content{
+          order (PrimarySecondary)
+          primary("🎵 [#{value(info.songTitle)}]")
+          secondary("[#{value(info.singer)}]")
+        }
+      }
+    }      
   }
 }

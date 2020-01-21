@@ -1,0 +1,8 @@
+enum (Type) {
+  description (쿼리 타입)
+  symbol (_TITLE)
+  symbol (_SINGER)
+  symbol (_COMPOSER)
+  symbol (_SONGID)
+  symbol (_LYRICIST)
+}

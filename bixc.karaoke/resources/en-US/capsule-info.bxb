@@ -11,6 +11,7 @@ capsule-info {
     keyword (singsing)
     keyword (karaoke)
   }
+  
   display-name (노래방 검색기)
   developer-name (BixC)
   icon-asset (/images/logo.png)

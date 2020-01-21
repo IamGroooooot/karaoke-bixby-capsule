@@ -1,0 +1,27 @@
+result-view{
+  match{
+    Song(this)
+  }
+
+  message("Here a list of songs you want 🎤")
+
+  render{
+    if(size(this) == 1) {
+      layout-macro (music-details){
+        param(info){
+          expression (this)
+        }  
+      }
+    } else{
+      list-of (this){
+        where-each (info){
+          layout-macro (music-summary){
+            param (info) {
+              expression (info)
+            }
+          }
+        }
+      }
+    }
+  }
+}

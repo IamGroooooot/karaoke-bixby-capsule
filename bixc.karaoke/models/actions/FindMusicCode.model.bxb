@@ -2,31 +2,22 @@ action (FindMusicCode) {
   type (Search)
   description (HTTP GET Method로 곡의 번호 찾기)
   collect {
+    input (keyword) {
+      type (Keyword)
+      min (Required) max (One)
+    }
+    input (type) {
+      type (Type)
+      min (Optional) max (One)
+    }
+    input (cond) {
+      type (Cond)
+      min (Optional) max (One)
+    }
     input (karaokeCompany) {
       type (KaraokeCompany)
       min (Required) max (One)
     }
-    input (songTitle) {
-      type (SongTitle)
-      min (Required) max (One)
-    }
-    input (composer) {
-      type (Composer)
-      min (Optional) max (One)
-    }
-    input (lyricist) {
-      type (Lyricist)
-      min (Optional) max (One)
-    }
-    input (singer) {
-      type (Singer)
-      min (Optional) max (One)
-    }
-    input (songId) {
-      type (SongId)
-      min (Optional) max (One)
-    }
-
   }
   output (Song)
 }

@@ -1,0 +1,5 @@
+train (t-cbh99byp7lgsauchxkp5rod3x) {
+  utterance ("[g:FindMusicCode] (TJ)[v:KaraokeCompany:TJ]에서 (만약에)[v:Keyword] 노래번호 알려줘")
+  plan (Y2BhEEzKrEjWy04sSszPTtULzs9LZ5BCEXLLzEvxLS3OTHbOT0llkEaR84bQzvm5BYl5lQwiqJKpleX5RSkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1579592785864)
+}

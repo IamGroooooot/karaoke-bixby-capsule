@@ -8,11 +8,13 @@ capsule {
   format (3)
   targets {
     target (bixby-mobile-en-US)
+    
   }
   store-sections {
     section (Utilities)
     section (MusicAndAudio)
   }
+  
   //runtime-flags {
     //concepts-inherit-super-type-features
     //modern-prompt-rejection

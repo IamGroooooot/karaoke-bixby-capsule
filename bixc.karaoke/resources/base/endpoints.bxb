@@ -5,7 +5,7 @@ endpoints {
     }
     
     action-endpoint (FindMusicCode) {
-      accepted-inputs (songTitle, karaokeCompany)
+      accepted-inputs (keyword, type, cond, karaokeCompany)
       local-endpoint (FindMusicCode.js)
     }
 

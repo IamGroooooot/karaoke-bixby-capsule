@@ -1,25 +1,51 @@
-layout {
-  match: Song (this)
-  mode (Details)
-
-  content {
-    section {
-      content {
-        paragraph {
-          value ("곡 제목: [#{value(this.songTitle)}]")
-          style (Title_L)
+layout-macro-def (music-details){
+  params{
+    param(info){
+      type(Song)
+      min (Optional) max (Many)
+    }
+  }
+  content{
+    section{
+      content{
+        title-area{
+          halign (Center)
+          slot1{
+            text{
+              value ("[#{value(info.songTitle)}]")
+              style (Title_L)
+            }
+          }
+          slot2{
+            single-line{
+              text{
+                value ("[#{value(info.songId)}]")
+                style (Title_M)
+              }
+            }
+          }
         }
-        paragraph {
-          value ("곡 번호: [#{value(this.songId)}]")
-          style (Title_M)
-        }
-        paragraph {
-          value ("가수: [#{value(this.singer)}]")
-          style (Title_S)
-        }
-        paragraph {
-          value ("작곡/작사: [#{value(this.composer)} + #{value(this.lyricist)}]")
-          style (Title_S)
+        partitioned{
+          content{
+            single-line{
+              text{
+                value ("노래 [#{value(info.singer)}]")
+                style (Title_S)
+              }
+            }
+            single-line{
+              text{
+                value ("작곡 [#{value(info.composer)}]")
+                style (Title_S)
+              }
+            }
+            single-line{
+              text{
+                value ("작사 [#{value(info.lyricist)}]")
+                style (Title_S)
+              }
+            }
+          }
         }
       }
     }

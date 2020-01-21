@@ -1,0 +1,5 @@
+enum (Cond) {
+  description (1 or 0 // one or many)
+  symbol (ONE)
+  symbol (MANY)
+}

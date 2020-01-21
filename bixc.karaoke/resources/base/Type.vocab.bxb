@@ -1,0 +1,7 @@
+vocab (Type) {
+  "_TITLE" { "title", "제목" }
+  "_SINGER" { "singer", "가수" }
+  "_COMPOSER" { "composer", "작곡가" }
+  "_SONGID" { "song id", "song number", "노래 번호", "곡 번호" }
+  "_LYRICIST" { "Lyricist", "작사가" }
+}

@@ -1,0 +1,5 @@
+train (t-3zmb5kgqhsizr8ngyce9rqe4m) {
+  utterance ("[g:FindMusicCode:prompt] (만약에)[v:Keyword] 노래번호 뭐야?")
+  plan (Y2BhEEzKrEjWy04sSszPTtULzs9LZ5BCEXLLzEvxLS3OTHbOT0llkEaR84bQzvm5BYl5lQwiqJKpleX5RSkMzAyMDExAkgFIgyAEMAFZQDEA)
+  last-modified (1579592839161)
+}

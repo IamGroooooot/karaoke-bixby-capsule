@@ -1,0 +1,5 @@
+train (t-j4i71fga8llxijbm7jahrrpxz) {
+  utterance ("[g:FindMusicCode] (가수)[v:Type:_SINGER] (김명선)[v:Keyword] (TJ)[v:KaraokeCompany:TJ]에서 찾아줘")
+  plan (Y2BlEEzKrEjWy04sSszPTtULzs9LZ5BCEXLLzEvxLS3OTHbOT0llkEaR84bQzvm5BYl5lQwiqJKpleX5RSloNoRUFqQysDAwMjAxMANpBiALAmEASQ4A)
+  last-modified (1579591736382)
+}

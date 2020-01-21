@@ -1,5 +1,5 @@
 enum (KaraokeCompany) {
-  description (코인 노래방 회사)
+  description (노래방 회사)
   symbol (TJ)
   symbol (KUMYOUNG)
   symbol (DAM)

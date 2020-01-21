@@ -1,5 +1,5 @@
 train (t-5v9qn85mifl3npvq5cxoxh6rx) {
-  utterance ("[g:FindMusicCode] from (kumyoung)[v:KaraokeCompany:KUMYOUNG] search (in to the unkown)[v:SongTitle] sang by (elsa)[v:Singer]")
-  plan (Y2BlEEzKrEjWy04sSszPTtULzs9LZ5BCEXLLzEvxLS3OTHbOT0llkEaR84bQzvm5BYl5lQzCqGZl5qWnFjGIYVgQklmSk8rAwsDIwMTADKQZgCwIhAEkOQA=)
-  last-modified (1579585598367)
+  utterance ("[g:FindMusicCode] from (kumyoung)[v:KaraokeCompany:KUMYOUNG] search (in to the unkown)[v:Keyword]")
+  plan (Y2BhEEzKrEjWy04sSszPTtULzs9LZ5BCEXLLzEvxLS3OTHbOT0llkEaR84bQzvm5BYl5lQwiqJKpleX5RSkMzAyMDExAkgFIgyAEwEUB)
+  last-modified (1579591233358)
 }
