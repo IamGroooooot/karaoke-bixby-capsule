@@ -1,5 +1,27 @@
 endpoints {
   action-endpoints {
+    action-endpoint (FindMusic) {
+      accepted-inputs ()
+      local-endpoint (FindMusic.js)
+    }
+    
+    action-endpoint (FindMusicCode) {
+      accepted-inputs (musicTitle, karaokeCompany)
+      
+      local-endpoint (FindMusicCode.js)
+    }
+
+    action-endpoint (FindMusicError) {
+      local-endpoint ("FindMusicError.js")
+    }
+    
+    //action-endpoint (FindMusicRemoteEndpoint) {
+    //  accepted-inputs ()
+    //  remote-endpoint ("{remote.url}/musics") {
+    //    method (GET)
+    //  }
+    //}
+
     // Uncomment the lines below and enter the information for actions, inputs, and the appropriate local or remote endpoints
     // action-endpoint (__ACTION_NAME__) {
     //   accepted-inputs (__LIST_OF_ACTION_INPUTS__)

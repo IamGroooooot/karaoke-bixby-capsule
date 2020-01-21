@@ -1,0 +1,16 @@
+action (FindMusicError) {
+  type (Search)
+  description (Http Error 처리)
+  
+  output (Music){
+    throws {
+      error (ErrorWhichHalts) {
+        on-catch {
+          halt {
+            dialog("HTTP error was caught, and execution halted.")
+          }
+        }
+      }
+    }
+  }
+}
