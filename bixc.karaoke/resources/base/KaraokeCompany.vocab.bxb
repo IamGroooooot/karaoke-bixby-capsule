@@ -1,0 +1,7 @@
+vocab (KaraokeCompany) {
+  "TJ" { "TJ", "tj", "티제이" }
+  "KUMYOUNG" { "KUMYOUNG", "kumyoung", "금영" }
+  "JOYSOUND" { "JOYSOUND", "joysound", "조이 사운드" }
+  "DAM" {"DAM", "dam"}
+  "UGA" {"UGA", "uga"}
+}

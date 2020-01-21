@@ -1,0 +1,27 @@
+structure (Music) {
+  description (음악 구조체)
+  property (musicTitle) {
+    type (MusicTitle)
+    min (Required) max (One)
+  }
+  property (musicCode) {
+    type (MusicCode)
+    min (Required) max (One)
+  }
+   property (musicSinger) {
+    type (MusicSinger)
+    min (Optional) max (Many)
+  }
+  property (musicDescription) {
+    type (MusicDescription)
+    min (Optional) max (One)
+  }
+  property (musicReleaseDate) {
+    type (MusicReleaseDate)
+    min (Optional) max (One)
+  }
+  property (musicWriter) {
+    type (MusicWriter)
+    min (Optional) max (Many)
+  }
+}
