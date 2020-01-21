@@ -6,14 +6,21 @@ layout {
     section {
       content {
         paragraph {
-          value ("곡명: [#{value(this.songTitle)}]")
+          value ("곡 제목: [#{value(this.songTitle)}]")
           style (Title_L)
         }
         paragraph {
-          value ("곡 번호는 [#{value(this.songId)}]입니다.")
+          value ("곡 번호: [#{value(this.songId)}]")
           style (Title_M)
         }
-        
+        paragraph {
+          value ("가수: [#{value(this.singer)}]")
+          style (Title_S)
+        }
+        paragraph {
+          value ("작곡/작사: [#{value(this.composer)} + #{value(this.lyricist)}]")
+          style (Title_S)
+        }
       }
     }
   }

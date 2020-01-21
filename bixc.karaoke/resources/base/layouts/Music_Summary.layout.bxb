@@ -9,7 +9,7 @@ layout {
           value ("[#{value(this.songTitle)}]\n")
           style (Title_M)
         }
-       
+      
       }
     }
   }
