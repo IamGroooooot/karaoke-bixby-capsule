@@ -1,0 +1,31 @@
+action (FindMusic) {
+  type (Search)
+  description (HTTP GET Method로 음악 찾기)
+  collect {
+    input (karaokeCompany) {
+      type (KaraokeCompany)
+      min (Required) max (One)
+    }
+    input (musicTitle) {
+      type (MusicTitle)
+      min (Required) max (One)
+    }
+    input (musicCode) {
+      type (MusicCode)
+      min (Optional) max (One)
+    }
+    input (musicReleaseDate) {
+      type (MusicReleaseDate)
+      min (Optional) max (One)
+    }
+    input (musicSinger) {
+      type (MusicSinger)
+      min (Optional) max (Many)
+    }
+    input (musicWriter) {
+      type (MusicWriter)
+      min (Optional) max (Many)
+    }
+  }
+  output (Music)
+}

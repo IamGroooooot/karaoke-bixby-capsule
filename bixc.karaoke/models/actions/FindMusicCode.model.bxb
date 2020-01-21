@@ -1,0 +1,27 @@
+action (FindMusicCode) {
+  type (Search)
+  description (HTTP GET Method로 곡의 번호 찾기)
+  collect {
+    input (karaokeCompany) {
+      type (KaraokeCompany)
+      min (Required) max (One)
+    }
+    input (musicTitle) {
+      type (MusicTitle)
+      min (Required) max (One)
+    }
+    input (musicReleaseDate) {
+      type (MusicReleaseDate)
+      min (Optional) max (One)
+    }
+    input (musicSinger) {
+      type (MusicSinger)
+      min (Optional) max (Many)
+    }
+    input (musicWriter) {
+      type (MusicWriter)
+      min (Optional) max (Many)
+    }
+  }
+  output (MusicCode)
+}
