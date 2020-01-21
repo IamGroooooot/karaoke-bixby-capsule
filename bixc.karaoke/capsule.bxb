@@ -1,0 +1,21 @@
+capsule {
+  id (bixc.karaoke)
+  runtime-version (2)
+  store-countries {
+    all
+  }
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  store-sections {
+    section (Utilities)
+    section (MusicAndAudio)
+  }
+  //runtime-flags {
+    //concepts-inherit-super-type-features
+    //modern-prompt-rejection
+    //support-halt-effect-in-computed-inputs
+  //}
+}

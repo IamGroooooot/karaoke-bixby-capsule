@@ -1,0 +1,20 @@
+capsule-info {
+  dispatch-name (singsing)
+  dispatch-aliases {
+    alias (sing sing)
+  }
+  search-keywords {
+    keyword (노래방)
+    keyword (금영)
+    keyword (TJ)
+    keyword (sing sing)
+    keyword (singsing)
+    keyword (karaoke)
+  }
+  display-name (노래방 검색기)
+  developer-name (BixC)
+  icon-asset (/images/logo.png)
+  description ("어마어마한 노래방 검색기")
+  website-url (https://github.com/IamGroooooot/karaoke-bixby-capsule)
+  //terms-url (https://example.com/terms-of-use/)
+}
