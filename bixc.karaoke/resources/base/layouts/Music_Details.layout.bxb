@@ -1,0 +1,20 @@
+layout {
+  match: Song (this)
+  mode (Details)
+
+  content {
+    section {
+      content {
+        paragraph {
+          value ("곡명: [#{value(this.songTitle)}]")
+          style (Title_L)
+        }
+        paragraph {
+          value ("곡 번호는 [#{value(this.songId)}]입니다.")
+          style (Title_M)
+        }
+        
+      }
+    }
+  }
+}

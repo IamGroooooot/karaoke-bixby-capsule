@@ -1,0 +1,16 @@
+layout {
+  match: Song (this)
+  mode (Summary)
+
+  content {
+    section {
+      content {
+        paragraph {
+          value ("[#{value(this.songTitle)}]\n")
+          style (Title_M)
+        }
+       
+      }
+    }
+  }
+}

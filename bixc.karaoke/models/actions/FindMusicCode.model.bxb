@@ -6,22 +6,27 @@ action (FindMusicCode) {
       type (KaraokeCompany)
       min (Required) max (One)
     }
-    input (musicTitle) {
-      type (MusicTitle)
+    input (songTitle) {
+      type (SongTitle)
       min (Required) max (One)
     }
-    input (musicReleaseDate) {
-      type (MusicReleaseDate)
+    input (composer) {
+      type (Composer)
       min (Optional) max (One)
     }
-    input (musicSinger) {
-      type (MusicSinger)
-      min (Optional) max (Many)
+    input (lyricist) {
+      type (Lyricist)
+      min (Optional) max (One)
     }
-    input (musicWriter) {
-      type (MusicWriter)
-      min (Optional) max (Many)
+    input (singer) {
+      type (Singer)
+      min (Optional) max (One)
     }
+    input (songId) {
+      type (SongId)
+      min (Optional) max (One)
+    }
+
   }
-  output (MusicCode)
+  output (Song)
 }

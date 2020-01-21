@@ -1,0 +1,23 @@
+structure (Song) {
+  description (곡 하나)
+  property (songId) {
+    type (SongId)
+    min (Required) max (One)
+  }
+  property (songTitle) {
+    type (SongTitle)
+    min (Optional) max (One)
+  }
+  property (singer) {
+    type (Singer)
+    min (Optional) max (One)
+  }
+  property (composer) {
+    type (Composer)
+    min (Optional) max (One)
+  }
+  property (lyricist) {
+    type (Lyricist)
+    min (Optional) max (One)
+  }
+}

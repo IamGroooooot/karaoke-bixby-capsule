@@ -1,13 +1,11 @@
 endpoints {
   action-endpoints {
     action-endpoint (FindMusic) {
-      accepted-inputs ()
       local-endpoint (FindMusic.js)
     }
     
     action-endpoint (FindMusicCode) {
-      accepted-inputs (musicTitle, karaokeCompany)
-      
+      accepted-inputs (songTitle, karaokeCompany)
       local-endpoint (FindMusicCode.js)
     }
 
